@@ -133,7 +133,7 @@ class MSTParser:
         self._mst_mlp_dims = kwargs.get("mst_mlp_dims", 128)
         self._mst_mlp_layers = kwargs.get("mst_mlp_layers", 2)
         self._mst_mlp_dropout = kwargs.get("mst_mlp_dropout", 0.0)
-        self._mst_discrim = kwargs.get("mst_discrim", False)
+        self._mst_discrim = kwargs.get("mst_discrim", True)
 
     def init_params(self):
         self._mst_head_mlp = MultiLayerPerceptron([self._bilstm_dims] + [self._mst_mlp_dims] * self._mst_mlp_layers, self._mst_mlp_activation, self._parser._model)
