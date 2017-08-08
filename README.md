@@ -35,7 +35,7 @@ parser.predict(graphs, aedp=True)
 If you make use of this software in your research, we appreciate you citing the following papers:
 
 ```
-@InProceedings{shi2017conll,
+@InProceedings{shi-etal2017conll,
     author    = {Shi, Tianze  and  Wu, Felix G.  and  Chen, Xilun  and  Cheng, Yao},
     title     = {Combining Global Models for Parsing Universal Dependencies},
     booktitle = {Proceedings of the CoNLL 2017 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies},
@@ -49,8 +49,8 @@ If you make use of this software in your research, we appreciate you citing the 
 ```
 
 ```
-@InProceedings{shi2017emnlp,
-    author    = {Shi, Tianze and Huang, Liang  and  Lee, Lillian},
+@InProceedings{shi+huang+lee2017exact,
+    author    = {Shi, Tianze  and  Huang, Liang  and  Lee, Lillian},
     title     = {Fast(er) Exact Decoding and Global Training for Transition-based Dependency Parsing via a Minimal Feature Set},
     booktitle = {Proceedings of the Conference on Empirical Methods in Natural Language Processing},
     month     = {September},
